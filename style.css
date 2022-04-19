@@ -1,155 +1,152 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-color: green;
+    background-color: white;
 }
 
 .top-header {
-  background-color: white;
-  height: 60px;
-  width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
-  color: rgb(21, 128, 0);
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-left: 20px;
+    color: rgb(21, 128, 0);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
 }
 
 .sec-logo {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(23, 99, 8);
-  font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(23, 99, 8);
+    font-size: 30px;
 }
 
 .stuff-inside {
-  background-color: rgb(0, 99, 0);
-  width: 100%;
-  height: 300px;
-  position: absolute;
-  z-index: -1;
+    background-color: rgb(0, 99, 0);
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    z-index: -1;
 }
 
 .spring {
-  text-align: center;
-  color: white;
-  font-size: 60px;
-  margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 30px;
 }
 
 .click-here {
-  background-color: rgb(9, 118, 9);
-  margin-left: 45%;
-  height: 60px;
-  width: 169px;
-  margin-top: 20px;
+    background-color: rgb(9, 118, 9);
+    margin-left: 45%;
+    height: 60px;
+    width: 169px;
+    margin-top: 20px;
 }
 
 .click-here #click:hover {
-  transition: 0.3s;
-  color: rgb(26, 81, 26);
+    transition: 0.3s;
+    color: rgb(26, 81, 26);
 }
 
 #click {
-  color: white;
-  font-size: 16px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .things {
-  z-index: 1;
-  margin-top: 320px;
-  margin-left: 20px;
-  text-align: center;
+    z-index: 1;
+    margin-top: 320px;
+    margin-left: 20px;
+    text-align: center;
 }
 
 #gallery {
-   color: white;
-   text-align: center;
-   font-size: 60px;
-   margin-bottom:10px;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
 }
 
-
 .cafe1 {
-  width: 500px;
-  height: 300px;
+    width: 500px;
+    height: 300px;
 }
 
 .cafe2 {
-  width: 500px;
-  height: 300px;
-  margin-left: 30px;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
 }
 
 .cafe3 {
-  width: 500px;
-  height: 300px;
-  margin-left:30px;
-  margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .cafe4 {
-  width: 500px;
-  height: 300px;
+    width: 500px;
+    height: 300px;
 }
 
 .cafe5 {
-  width: 500px;
-  height: 300px;
+    width: 500px;
+    height: 300px;
 }
 
 .cafe6 {
-  width: 500px;
-  height: 300px;
-  margin-left:30px;
-  margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 #services {
-  margin-top: 40px;
-  text-align: center;
-  color: white;
-  font-size: 60px;
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    font-size: 60px;
 }
 
 .the-ser {
-  text-align: center;
-  color: white;
-  font-size: 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
 }
 
 .contact {
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
 }
 
 footer {
-  width: 100%;
-  height: 100px;
-  background-color: darkgreen;
+    width: 100%;
+    height: 100px;
+    background-color: darkgreen;
 }
 
 .yay-end {
-  color: white;
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 10px;
-}
-@media (min-width:1000px){
-  body{
-    font-size: 16px;
-  }
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
 }
 
-
-  
+@media (min-width:1000px) {
+    body {
+        font-size: 16px;
+    }
+}
